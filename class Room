@@ -41,3 +41,6 @@ class Room:
     # Set bed number
     def set_bed_num(self, bed_num):
         self._bed_num = bed_num
+
+room1 = Room(room_type="Deluxe", room_num="111", availability=True, price="200.00", bed_num=2)
+
