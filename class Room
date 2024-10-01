@@ -1,0 +1,43 @@
+
+class Room:
+    """Class that identifies a hotel room."""
+
+    def __init__(self, room_type, room_num, availability, price, bed_num):
+        # Initializing 5 attributes of Room
+        self._room_type = room_type
+        self._room_num = room_num
+        self._availability = availability
+        self._price = price
+        self._bed_num = bed_num
+
+    # Get room type
+    def get_room_type(self):
+        return self._room_type
+    # Get room number
+    def get_room_num(self):
+        return self._room_num
+    # Get room availability
+    def get_availability(self):
+        return self._availability
+    # Get room price
+    def get_price(self):
+        return self._price
+    # Get bed number
+    def get_bed_num(self):
+        return self._bed_num
+
+    # Set room type
+    def set_room_type(self, room_type):
+        self._room_type = room_type
+    # Set room number
+    def set_room_num(self, room_num):
+        self._room_num = room_num
+    # Set room availability
+    def set_availability(self, availability):
+        self._availability = availability
+    # Set room price
+    def set_price(self, price):
+        self._price = price
+    # Set bed number
+    def set_bed_num(self, bed_num):
+        self._bed_num = bed_num
