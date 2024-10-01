@@ -1,0 +1,46 @@
+lass Guest:
+    """Class that identifies a hotel guest."""
+
+    def __init__(self, name, email, reservation_num, phone_num, identification):
+        # Initializing 5 attributes of Guest
+        self._name = name
+        self._email = email
+        self._reservation_num = reservation_num
+        self._phone_num = phone_num
+        self._identification = identification
+
+    # Get name
+    def get_name(self):
+        return self._name
+    # Get email
+    def get_email(self):
+        return self._email
+    # Get reservation number
+    def get_reservation_num(self):
+        return self._reservation_num
+    # Get phone number
+    def get_phone_num(self):
+        return self._phone_num
+    # Get identification
+    def get_identification(self):
+        return self._identification
+
+    # Set name
+    def set_name(self, name):
+        self._name = name
+    # Set email
+    def set_email(self, email):
+        self._email = email
+    # Set reservation number
+    def set_reservation_num(self, reservation_num):
+        self._reservation_num = reservation_num
+    # Set phone number
+    def set_phone_num(self, phone_num):
+        self._phone_num = phone_num
+    # Set identification
+    def set_identification(self, identification):
+        self._identification = identification
+
+  # Creating an object for the Guest , Room , Reservation, Deposit class.
+guest1 = Guest(name="Ayesha Adel", email="ayesha.adel@gmail.com", reservation_num="R2457", phone_num="0555588242",
+               identification="ID7842004")
